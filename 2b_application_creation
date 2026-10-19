@@ -1,0 +1,27 @@
+
+
+/home/project/final_project$ python3
+
+Python 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0] on linux
+
+Type "help", "copyright", "credits" or "license" for more information.
+
+>>> 
+
+
+
+>>> print(emotion_detector('im really mad about this  '))
+
+{'anger': 0.52189136, 'disgust': 0.011341707, 'fear': 0.19416513, 'joy': 0.0061117606, 'sadness': 0.2674774, 'dominant_emotion': 'anger'}
+
+>>> 
+
+>>> exit()
+
+/home/project/final_project$ pytthon3 test_emotion_detection.py
+
+----------------------------------------------------------------------
+
+Ran 0 tests in 0.000s
+
+OK
